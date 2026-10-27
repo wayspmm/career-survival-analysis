@@ -1,6 +1,6 @@
 # Событийно-временная модель кадровых траекторий по послужным спискам
 
-Если ноутбук не отображается в Github, то можно взглянуть вот здесь[https://nbviewer.org/github/wayspmm/career-survival-analysis/blob/main/event_history_Li_Lyudmila.ipynb]
+Если ноутбук не отображается в Github, то можно взглянуть [вот здесь](https://nbviewer.org/github/wayspmm/career-survival-analysis/blob/main/event_history_Li_Lyudmila.ipynb)
 
 Решение сделано в Python 3.13, зависимости лежат в requirements.txt. Ноутбук event_history_Li_Lyudmila.ipynb нужно положить рядом с папкой data и выполнить все ячейки. Случайность есть только в LightGBM и в симуляции сценариев, везде стоит seed 42, повторный запуск даёт те же цифры. Использованы только open-source библиотеки pandas, numpy, scikit-learn, LightGBM и matplotlib.
 
